@@ -1,0 +1,58 @@
+//
+The following code was created with the objective of using the flowbot to save a minimum of 30 minutes each month.
+ Through the implementation of automation and robotics, repetitive and time-consuming tasks have been streamlined,
+  freeing up valuable time that can be better utilized. Not only has this bot achieved significant time savings, 
+  but it has also reduced the error rate significantly, increasing efficiency and accuracy in the process. 
+  As we move forward, the goal for the upcoming quarter is to further increase productivity by achieving a savings of 15 minutes per day. 
+  With continued dedication and effort, we are confident that this objective will be met, leading to even greater success and progress in the future
+
+//
+
+{
+    "recurrence": {
+        "frequency": "Week",
+        "interval": 1,
+        "timeZone": "Egypt Standard Time",
+        "startTime": "2023-04-24T08:00:00.000Z",
+        "schedule": {
+            "weekDays": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "hours": [
+                "8"
+            ],
+            "minutes": [
+                0
+            ]
+        }
+    },
+    "metadata": {
+        "operationMetadataId": "eea71a94-45c6-4c5b-a5ce-bed10e93b837"
+    }
+}
+
+
+
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_office365",
+            "operationId": "SendEmailV2",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+        },
+        "parameters": {
+            "emailMessage/To": "Mohamed.Shehata@Vodafone.com;Mohamed.elSafty@Vodafone.com;Hanaa.ElShebiny@vodafone.com",
+            "emailMessage/Subject": "NPS_Daily_Reminder",
+            "emailMessage/Body": "<p>Hallo zusammen,<br>\n<br>\nich hoffe es geht Ihnen gut und Sie haben eine produktive Woche..<br>\nIch möchte Sie daran erinnern, wie wichtig es für uns ist, unseren Kunden den bestmöglichen Service zu bieten. Eine Möglichkeit, dies zu überprüfen, ist durch den Net Promoter Score (NPS). Der NPS misst, wie wahrscheinlich es ist, dass Kunden unser Unternehmen empfehlen würden.<br>\n<br>\nUm sicherzustellen, dass wir den NPS kontinuierlich im Auge behalten, bitte ich Sie, täglich eine Erinnerung zu setzen, um unseren NPS-Tracker zu aktualisieren. Bitte nehmen Sie sich einige Minuten Zeit, um den aktuellen Stand des NPS zu überprüfen und Notizen zu machen, wie wir ihn verbessern können.<br>\n<br>\nIch danke Ihnen im Voraus für Ihre Zusammenarbeit und Ihr Engagement für die Kundenzufriedenheit.<br>\n<br>\nDanke.<br>\nNPS_daily _Reminder</p>",
+            "emailMessage/Importance": "Normal"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "315a984d-b6c7-491d-b4f9-5c3bc15b838f"
+    }
+}
