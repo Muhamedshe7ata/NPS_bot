@@ -45,9 +45,9 @@ The following code was created with the objective of using the flowbot to save a
             "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
         },
         "parameters": {
-            "emailMessage/To": "Mohamed.Shehata@Vodafone.com;Mohamed.elSafty@Vodafone.com;Hanaa.ElShebiny@vodafone.com",
+            "emailMessage/To": ".... ",
             "emailMessage/Subject": "NPS_Daily_Reminder",
-            "emailMessage/Body": "<p>Hallo zusammen,<br>\n<br>\nich hoffe es geht Ihnen gut und Sie haben eine produktive Woche..<br>\nIch möchte Sie daran erinnern, wie wichtig es für uns ist, unseren Kunden den bestmöglichen Service zu bieten. Eine Möglichkeit, dies zu überprüfen, ist durch den Net Promoter Score (NPS). Der NPS misst, wie wahrscheinlich es ist, dass Kunden unser Unternehmen empfehlen würden.<br>\n<br>\nUm sicherzustellen, dass wir den NPS kontinuierlich im Auge behalten, bitte ich Sie, täglich eine Erinnerung zu setzen, um unseren NPS-Tracker zu aktualisieren. Bitte nehmen Sie sich einige Minuten Zeit, um den aktuellen Stand des NPS zu überprüfen und Notizen zu machen, wie wir ihn verbessern können.<br>\n<br>\nIch danke Ihnen im Voraus für Ihre Zusammenarbeit und Ihr Engagement für die Kundenzufriedenheit.<br>\n<br>\nDanke.<br>\nNPS_daily _Reminder</p>",
+            "emailMessage/Body": "<p> (Content of Message ).<br>\n<br>\nIch danke Ihnen im Voraus für Ihre Zusammenarbeit und Ihr Engagement für die Kundenzufriedenheit.<br>\n<br>\nDanke.<br>\nNPS_daily _Reminder</p>",
             "emailMessage/Importance": "Normal"
         },
         "authentication": "@parameters('$authentication')"
